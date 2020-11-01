@@ -90,27 +90,6 @@ def main():
 
     st.markdown("* * *")
 
-
-    # # Selectbox
-    # type_of_plot = st.selectbox("Select Type of Plot",["Histograms","Density plots for all attributes","Box and Whisker Plots"])
-
-    # if type_of_plot == 'Histograms':
-    #     plt.rcParams['figure.figsize'] = [12, 10]
-    #     st.set_option('deprecation.showPyplotGlobalUse', False)
-    #     st.write(df.hist())
-    #     st.pyplot()
-
-    # elif type_of_plot == 'Density plots for all attributes':
-    #     st.set_option('deprecation.showPyplotGlobalUse', False)
-    #     st.write(df.plot(kind='density', subplots=True, layout=(3,3), sharex=False))
-    #     st.pyplot()
-
-    # elif type_of_plot == 'Box and Whisker Plots':
-    #     st.set_option('deprecation.showPyplotGlobalUse', False)
-    #     st.write(df.plot(kind= 'box', subplots=True, layout=(3,3), sharex=False, sharey=False))
-    #     st.pyplot()
-
-
     #
     st.subheader("Multivariate Plots:")
 
